@@ -3,4 +3,4 @@
 #!system=ios
 
 [Script]
-嗨客源修复 = type=http-request,pattern=^https?:\/\/repo\.qqtlr\.com\/\.\/downloads\.php%3Frequest=\d+\.deb,requires-body=false,script-path=https://gitlab.com/surge/-/raw/main/Jailbreak/SileoHiKe.js,debug=false
+嗨客源修复 = type=http-request,pattern=^https?:\/\/repo\.qqtlr\.com\/\.\/downloads\.php%3Frequest=\d+\.deb,requires-body=false,script-path= https://raw.githubusercontent.com/rartv/SurgeScript/main/Jailbreak/SileoHiKe.js,debug=false
