@@ -1,0 +1,6 @@
+#!name=Sileo 嗨客源修复
+#!desc=修复嗨客源在 Sileo 上无法下载 deb 的问题
+#!system=ios
+
+[Script]
+嗨客源修复 = type=http-request,pattern=^https?:\/\/repo\.qqtlr\.com\/\.\/downloads\.php%3Frequest=\d+\.deb,requires-body=false,script-path=https://gitlab.com/surge/-/raw/main/Jailbreak/SileoHiKe.js,debug=false
